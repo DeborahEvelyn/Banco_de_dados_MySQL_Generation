@@ -34,9 +34,10 @@ SELECT nome, matricula, salario from funcionarios WHERE salario < (select max(20
 
 select * from Funcionarios;
 
-
 truncate funcionarios;
 
-
+UPDATE funcionarios
+SET nome = "Deborah"
+WHERE ID_funcionario = 1
 
 

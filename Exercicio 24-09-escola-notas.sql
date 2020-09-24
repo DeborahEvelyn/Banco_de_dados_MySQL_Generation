@@ -36,5 +36,8 @@ SELECT nome, turma, nota from alunes WHERE nota < (select max(7.0) from alunes);
 
 select * from alunes;
 
-
 truncate alunes;
+
+UPDATE ESCOLA
+SET nome = "Rebeca"
+WHERE ID_alunes = 1

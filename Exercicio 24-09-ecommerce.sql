@@ -35,5 +35,9 @@ select * from produtos;
 truncate produtos;
 
 
+UPDATE ECOMMERCE
+SET nome = "Notebook"
+WHERE ID_produtos = 1
+
 
 
