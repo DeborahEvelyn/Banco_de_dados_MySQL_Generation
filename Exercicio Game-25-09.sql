@@ -16,9 +16,9 @@ INSERT INTO `db_generation_game_online`.`tb_classe`
 `necromante`,
 `invocador`)
 VALUES
-('especialista de fogo', 'especialista em magia', 'especialista no tempo'),
-('especialista em ressurreicao', 'criatura das trevas', 'especialista em feiticos'),
-('especialista em invocacao de animais', 'especialista em manipulacao', 'especialista em falar com animais');
+('ilusão', 'especialista em ressurreicao', 'especialista em invocacao de animais'),
+('Adivinhação', 'controlar Morto-Vivo', 'especialista em manipulacao'),
+('Transmutação', 'aprisionar Alma', 'especialista em falar com animais');
 
 
 create table tb_personagem (
